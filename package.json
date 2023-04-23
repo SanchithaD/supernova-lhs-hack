@@ -2,7 +2,7 @@
   "name": "supernova_hackathon",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sanchithad.github.io/supernova-lhs-hack",
+  "homepage": "https://sanchithad.github.io/supernova-lhs-hack/",
   "dependencies": {
     "@babel/plugin-syntax-jsx": "^7.18.6",
     "@formkit/auto-animate": "^1.0.0-beta.3",
@@ -43,7 +43,7 @@
     "start": "next start",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
     "prepare": "husky install",
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "browserslist": {
@@ -70,7 +70,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TiagoGouvea/hackathon-moinho-website-template"
+    "url": "git+https://github.com/SanchithaD/supernova-lhs-hack"
   },
   "author": "",
   "license": "ISC",
