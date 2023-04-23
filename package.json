@@ -2,7 +2,7 @@
   "name": "supernova_hackathon",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sanchithad.github.io/supernova-lhs-hack/",
+  "homepage": "https://sanchithad.github.io/supernova-lhs-hack",
   "dependencies": {
     "@babel/plugin-syntax-jsx": "^7.18.6",
     "@formkit/auto-animate": "^1.0.0-beta.3",
