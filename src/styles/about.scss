@@ -37,6 +37,11 @@
   margin-bottom: 24px;
 }
 
+.mediaInfo {
+  margin-top: 10vh;
+  background-size: auto 100vh;
+}
+
 .SectionAgendaAbout h2 {
   margin-bottom: 3rem;
 }
@@ -65,6 +70,10 @@
 }
 
 @media (max-width: 1000px) {
+
+  .mediaInfo {
+    margin-top: 0;
+  }
   .SectionAgendaAbout {
     text-align: center;
   }

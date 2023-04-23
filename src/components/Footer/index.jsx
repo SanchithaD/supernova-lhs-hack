@@ -1,6 +1,30 @@
 import {useEffect, useState} from 'react';
-import {FOOTER} from '../../Module/General';
+import {FOOTER, SOCIALS, TOP_SECTION} from '../../Module/General';
+import cross from './assets/cross.svg';
+import DevPost from './assets/icons8-dev-post.svg';
+import Dis from './assets/icons8-discord.svg';
+import Insta from './assets/icons8-instagram.svg';
+import Linked from './assets/icons8-linkedin-2.svg';
+import Mail from './assets/icons8-mail.svg';
+import Twitter from './assets/icons8-twitter.svg';
 //------------------------------------------------------------------
+//import './style.scss';
+
+const GithubTemplate = ({hideTemplate}) => {
+  return (
+    <div className="template">
+      <div className="template-left">
+        <p>
+          Join us to{' '}
+          <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>Gear Up</a>,
+          where we will be hosting PUBLIC workshops, tech talks, panel
+          discussions, and career sessions!
+        </p>
+      </div>
+      <img onClick={hideTemplate} src={cross} />
+    </div>
+  );
+};
 
 const Footer = () => {
   const [template, setTemplate] = useState(false);
@@ -20,45 +44,52 @@ const Footer = () => {
   };
 
   return (
-    <div className="footer-container">
-      <div className="pre-footer">{FOOTER.PRE_FOOTER.content}</div>
+    <div>
       <div className="footer">
+        <div className="social-icons-container">
+          <div className="social-icon">
+            <a rel="noreferrer" target="_blank" href={SOCIALS.instagram}>
+              <img src={Insta} alt="" />
+            </a>
+          </div>
+          <div className="social-icon">
+            <a rel="noreferrer" target="_blank" href={SOCIALS.discord}>
+              <img src={Dis} alt="" />
+            </a>
+          </div>
+          <div className="social-icon">
+            <a rel="noreferrer" target="_blank" href={SOCIALS.linkedin}>
+              <img src={Linked} alt="" />
+            </a>
+          </div>
+          <div className="social-icon">
+            <a rel="noreferrer" target="_blank" href={SOCIALS.email}>
+              <img src={Mail} alt="" />
+            </a>
+          </div>
+          <div className="social-icon">
+            <a rel="noreferrer" target="_blank" href={SOCIALS.twitter}>
+              <img src={Twitter} alt="" />
+            </a>
+          </div>
+          <div className="social-icon">
+            <a rel="noreferrer" target="_blank" href={SOCIALS.devpost}>
+              <img src={DevPost} alt="" />
+            </a>
+          </div>
+        </div>
         <div className="footer_info">
           <p>
-            O Hackathon é realização do{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={FOOTER.realization.link}
-            >
-              <b>{FOOTER.realization.name}</b>
-            </a>{' '}
-            juntamente com a Prefeitura de Juiz de Fora e demais parceiros
-            estratégicos.
-          </p>
-          <p>
-            A elaboração e organização do evento é de{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={FOOTER.organization.link}
-            >
-              <b>{FOOTER.organization.name}</b>
-            </a>
-            , com o suporte dos apoiadores e mentores{' '}
-          </p>
-          <p>
-            Landing page criada por voluntários com código open-source
-            disponível no{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={FOOTER.github.link}
-            >
-              <b>{FOOTER.github.name}</b>
+            Contact us{' '}
+            <a href={SOCIALS.email}>
+              <em>{SOCIALS.mail}</em>
             </a>{' '}
           </p>
+          <p>Made with ❤️</p>
         </div>
+        {template && viewTemplate && (
+          <GithubTemplate hideTemplate={() => setViewTemplate(false)} />
+        )}
       </div>
     </div>
   );

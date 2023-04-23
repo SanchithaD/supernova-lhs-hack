@@ -5,22 +5,6 @@ import ReactMarkdown from 'react-markdown';
 
 import {MIDDLE_SECTION} from 'Module/General';
 
-const ContextAwareToggle = ({setFullText, fullText}) => {
-  return (
-    <button
-      type="button"
-      className="collapse-button"
-      style={{
-        backgroundColor: fullText ? '#b4ff00' : '#1c1c1c',
-        color: fullText ? '#1c1c1c' : '#b4ff00'
-      }}
-      onClick={() => setFullText(!fullText)}
-    >
-      {fullText ? 'Menos detalhes...' : 'Mais detalhes...'}
-    </button>
-  );
-};
-
 const Collapse = () => {
   const [fullText, setFullText] = useState(false);
   const parentRef = useRef();
@@ -47,11 +31,6 @@ const Collapse = () => {
       {text.map((props, i) => (
         <ReactMarkdown key={i}>{props}</ReactMarkdown>
       ))}
-      <ContextAwareToggle
-        setFullText={setFullText}
-        fullText={fullText}
-        eventKey="0"
-      />
     </div>
   );
 };

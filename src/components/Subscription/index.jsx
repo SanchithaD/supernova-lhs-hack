@@ -42,7 +42,7 @@ const Subscription = ({termIsOpen, setTermIsOpen}) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Me inscrever agora
+              Register
             </Button>
           </Col>
           <Col>

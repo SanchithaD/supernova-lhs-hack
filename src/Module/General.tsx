@@ -5,14 +5,12 @@ const hackathonLogo = '/Assets/hackthon_branco.png';
 const camping1 = '/Assets/Camping/camping_1.jpg';
 
 // Prizes
-const firstPrize = '/Assets/prizes/mouse.png';
-const secondPrize = '/Assets/prizes/cafeteira.png';
-const thirdPrize = '/Assets/prizes/teclado.png';
-const fourthPrize = '/Assets/prizes/headset.png';
-const fifthPrize = '/Assets/prizes/fone.png';
-const sixthPrize = '/Assets/prizes/mouse_pad.jpg';
-
-const lowCode = '/Assets/low_code.png';
+// const firstPrize = '/Assets/prizes/mouse.png';
+// const secondPrize = '/Assets/prizes/cafeteira.png';
+// const thirdPrize = '/Assets/prizes/teclado.png';
+// const fourthPrize = '/Assets/prizes/headset.png';
+// const fifthPrize = '/Assets/prizes/fone.png';
+// const sixthPrize = '/Assets/prizes/mouse_pad.jpg';
 
 // Importing all sponsors logos from Assets
 /** Put all your Team member image inside folder `Team Images`
@@ -26,6 +24,8 @@ const zero40 = '/Assets/sponsorsLogos/zero40.png';
 const critt = '/Assets/sponsorsLogos/critt.jpeg';
 const sebrae = '/Assets/sponsorsLogos/sebrae.png';
 
+const lowCode = '/Assets/low_code.png';
+
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
  * or you can provide a cloud link in src
@@ -33,244 +33,102 @@ const sebrae = '/Assets/sponsorsLogos/sebrae.png';
 
 const TOP_SECTION = {
   BANNER: hackathonBanner,
-  TITLE: '1º Festival de Inovação Social',
+  TITLE: '',
   Typed_effect: [
-    '24 horas de evento',
-    '24 horas de aprendizado',
-    '24 horas de diversão',
-    '24 horas de programação',
-    '24 horas de tecnologia',
-    '24 horas de inovação'
+    '12 hours of creativity',
+    'A Website, App or Game',
+    'Attend Workshops',
+    'Win Prizes'
+    /*'24 horas de tecnologia',
+    '24 horas de inovação'*/
   ],
   LONG_DESCRIPTION: (
     <>
-      24 horas de programação e inovação para projetar soluções para{' '}
+       Santa clara county&apos;s all girls hackathon! 12 hours where students create technological solutions to problems in their communities{' '}
       <a
         className="lime-link"
         href="https://hackathon-inovacao-social.notion.site/85b8d765f1de4293946b0a0a54f73300?v=332836713aad4d1fa131034ba89fa342"
         target="_blank"
         rel="noreferrer"
       >
-        problemas
+        May 20th and May 21st, 2023
       </a>{' '}
-      de saúde e educação da nossa cidade
+      Calabasas library, San Jose, CA
     </>
   ),
-  SHORT_DESCRIPTION: 'Dias 21 e 22 de Janeiro no Moinho',
-  ACTION_BTN: '#subscription',
+  SHORT_DESCRIPTION: 'Register',
+  ACTION_BTN: 'https://docs.google.com/forms/d/e/1FAIpQLSf1DEbubNqh09iQRWj_kjQV6Eu-UReVOi6SZOOFJeGbebHlZQ/viewform?pli=1',
   LOGO: hackathonLogo
 };
 
 const SOCIALS = {
-  instagram: 'https://www.instagram.com/limbohacks/',
-  discord: 'https://discord.com/invite/8XJSzmtWPp',
-  linkedin: 'https://www.linkedin.com/company/limbo-hacks/',
-  twitter: 'https://twitter.com/HacksLimbo',
-  devpost: 'https://limbo-hacks-12968.devpost.com/',
-  email: 'mailto:hello@limbohacks.tech',
-  mail: 'hello@limbohacks.tech'
+  instagram: 'https://www.instagram.com/superpositionlhs/?hl=en',
+  //discord: 'https://discord.com/invite/8XJSzmtWPp',
+   linkedin: 'https://www.linkedin.com/company/supernova/',
+  //twitter: 'https://twitter.com/HacksLimbo',
+  //devpost: 'https://limbo-hacks-12968.devpost.com/',
+  email: 'mailto:supernova.lhs@gmail.com',
+  mail: 'supernova.lhs@gmail.com'
 };
 
 const MIDDLE_SECTION = {
-  TITLE: 'O Hackathon',
+  BANNER: hackathonBanner,
+  TITLE: 'Tentative Schedule',
   LONG_DESCRIPTION: (
-    <>
-      Nosso hackathon será colaborativo, onde todos juntos buscam solucionar os{' '}
-      <a
-        className="lime-link"
-        href="https://hackathon-inovacao-social.notion.site/85b8d765f1de4293946b0a0a54f73300?v=332836713aad4d1fa131034ba89fa342"
-        target="_blank"
-        rel="noreferrer"
-      >
-        problemas
-      </a>{' '}
-      reais que serão apresentados no inicio do evento.
-    </>
+  ' '
   ),
   COLLAPSE_TITLE_PARAGRAPHS: [
-    'O Hackathon contará com equipes formadas por estudantes, profissionais e empreendedores, visando desenvolver projetos de tecnologia focadas em demanda reais nas áreas de saúde e educação, que possam deixar um legado para a cidade. ',
-    '“As equipes que mais se destacarem serão convidadas para compor a comunidade do Hub de Inovação do Moinho por seis meses, incluindo o acesso ao coworking, a eventos e a muito networking. O objetivo é que os projetos sejam validados no mundo real e, ao final deste período, poderão ser apresentados para possíveis investidores. '
+    'This hackathon is open to any high school or middle school student who identifies as female or non-binary. We welcome students of all levels, which is why we hold workshops on technical, business, and design topics to help you create the best possible project. We also have a lot of fun activities planned throughout the event along with great speakers and panel dicussions!'
   ],
-  COLLAPSE_DESCRIPTION_PARAGRAPHS: [
-    'Nos dias 3 e 4 de novembro acontecerá o **festival de inovação social de Juiz de Fora,** com foco nas áreas de **saúde** e **educação**. Neste evento serão apresentadas demandas e oportunidades da Zona Norte e cidade, bem como discutidas possíveis soluções, que servirão de insights para o Hackathon. ',
-    <>
-      Anteriormente ao festival, jovens da Zona Norte farão um levantamento dos{' '}
-      <a
-        className="lime-link"
-        href="https://hackathon-inovacao-social.notion.site/85b8d765f1de4293946b0a0a54f73300?v=332836713aad4d1fa131034ba89fa342"
-        target="_blank"
-        rel="noreferrer"
-      >
-        problemas
-      </a>{' '}
-      da região. Durante o festival acontecerão mesas redondas com a
-      participação de empresas, especialistas nas áreas e da prefeitura.
-    </>,
-    'Na esteira das demandas e ideas, virá o Hackathon nos dias 21 e 22 de Janeiro, com equipes formadas por estudantes, profissionais e empreendedores, visando desenvolver projetos de tecnologia focadas nas demanda reais, que possam deixar um legado para a cidade. ',
-    'As soluções desenvolvidas serão testadas nos meses seguintes ao hackathon pelas secretarias de saúde e educação juntamente com possíveis empresas interessadas, com objetivo de validar a ideia em campo, mostrando assim o seu valor. ',
-    'Após o hackathon, as equipes que mais se destacarem poderão ser convidadas a ter acesso completo ao programa Moinho Lab por seis meses, incluindo coworking, eventos exclusivos e muito networking. Ao final deste período os projetos poderão ser apresentados para possíveis investidores. '
-  ],
-  AGENDA_TITLE: 'Agenda',
+
+  AGENDA_TITLE: 'FAQ',
   AGENDA: [
     {
-      TITLE: 'Sábado, 21 de Janeiro',
-      DESCRIPTION:
-        'Abriremos o espaço para o credenciamento pela manhã, e após o almoço teremos a abertura oficial do evento, com a largada para o Hackathon logo em seguida.'
+      TITLE: 'How can I help out with Supernova Lynbrook Hackathon?',
+      DESCRIPTION: 'Supernova Lynbrook is always looking for judges, sponsors, and partners! Please reach out to us at ch.lynbrookhs@superposition.tech or through our hackathon slack at TBD'
     },
     {
-      TITLE: 'Ideias, projetos e programação',
-      DESCRIPTION:
-        '24 horas para pensar em soluções, propor projetos, montar equipes e desenvolver inovações para melhorar nossa realiadade.'
+      TITLE: 'Who can attend?',
+      DESCRIPTION: 'We welcome any high school or middle school student who identifies as female or non-binary'
     },
     {
-      TITLE: 'Domingo, 22 de Janeiro',
-      DESCRIPTION:
-        'Antes do almoço fecharemos o envio de projetos, com apresentação de alguns dos projetos desenvolvidos. Em seguida haverá a premiação dos melhores projetos e de todos os demais participantes.'
+      TITLE: 'When and Where is Supernova Lynbrook Hackathon happening?',
+      DESCRIPTION: 'Supernova Lynbrook happens on the weekend May 19th - May 20th, 2023 at Calabazas libray'
+    },
+    {
+      TITLE: 'Where can I contact organizers?',
+      DESCRIPTION: 'You can contact anyone in our team through our hackathon slack at or through our team email supernova.lhs@gmail.com'
+    },
+    {
+      TITLE: 'What do I bring?',
+      DESCRIPTION: 'An idea, and enthusiasm is all thats needed! If you have one, we recommend bringing your laptop. We will be providing food during the event.'
+    },
+    {
+      TITLE: 'What if I dont have a team or idea?',
+      DESCRIPTION: 'Supernova Lynbrook Hackathon will have workshops and team building time/activities where youll have the chance to come up with an idea or make a team.'
     }
   ],
-  AGENDA_FOOTER: 'Os horários exatos ainda serão divulgados',
+  AGENDA_FOOTER: '',
   LOGO: hackathonLogo
 };
 
-const ENTERPRISE_SECTION = {
-  TITLE: 'Hora de empreender!',
-  LONG_DESCRIPTION:
-    'Imagine como seria se um dos nossos projetos seguisse adiante e se tornasse uma solução amplamente utilizada na cidade, estado e até no pais? Estamos aqui pra isso!',
-  SHORT_DESCRIPTION: 'Os melhores projetos receberão nosso apoio',
-  TOPICS: [
-    {
-      ICON: <i className="fas fa-3x fa-gift"></i>,
-      DESCRIPTION: (
-        <p className="topicText">
-          Participação no{' '}
-          <a
-            className="link"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.nossomoinho.com/moinho-lab-coworking/"
-          >
-            Hub de Inovação do Moinho
-          </a>{' '}
-          por 6 meses
-        </p>
-      )
-    },
-    {
-      ICON: <i className="fas fa-3x fa-lightbulb"></i>,
-      DESCRIPTION: (
-        <p className="topicText">
-          Busca para <span className="link">validar</span> a ideia junto às
-          organizações parceiras do festival
-        </p>
-      )
-    },
-    {
-      ICON: <i className="fas fa-3x fa-hand-holding-usd"></i>,
-      DESCRIPTION: (
-        <p className="topicText">
-          Possibilidade de apresentação do projeto para{' '}
-          <span className="link">investidores</span>
-        </p>
-      )
-    }
-  ]
-};
-
-const EVENT_SECTION = {
-  TITLE: 'O evento',
-  DESCRIPTION:
-    'Um hackathon é um grande evento cultural, onde nerds, estudantes, programadores, empreendedores, acadêmicos e demais pessoas falam, vivem e criam inovação. Muito além de código, teremos outras atividades, veja algumas delas.',
-  ACTIVITIES: [
-    [
-      {
-        icon: <i className="second fas fa-4x fa-users"></i>,
-        title: 'Roda de conversa com empreendedores'
-      },
-      {
-        icon: <i className="third fas fa-4x fa-chalkboard-teacher"></i>,
-        title: 'Interação com mentores'
-      },
-      {
-        icon: <i className="first fas fa-4x fa-walking"></i>,
-        title: 'Just Dance Now'
-      }
-    ],
-    [
-      {
-        icon: <i className="third fas fa-4x fa-om"></i>,
-        title: 'Prática de Yoga'
-      },
-
-      {
-        icon: <i className="sixth fas fa-4x fa-couch"></i>,
-        title: 'Espaço relax'
-      },
-      {
-        icon: <i className="fifth fas fa-4x fa-chess-knight"></i>,
-        title: 'Jogos de tabuleiro'
-      }
-    ],
-    [
-      {
-        icon: <i className="sixth fas fa-4x fa-dumbbell"></i>,
-        title: 'Momento funcional'
-      }
-    ]
-  ]
-};
 
 const CAMPING_PARTY_SECTION = {
   img: camping1,
   LONG_DESCRIPTION:
-    'Se bater aquele cansaço, o que pode ser melhor que deitar na sua barraca e tirar um cochilo? Teremos um camping em uma área reservada do evento, um espaço para desligar e descansar.',
+    'Supernova Lynbrook Hackathon is a 12-hour hackathon where students use technology to create solutions to problems that their local communities face. A hackathon is a place where students come together and use technology to solve problems and win prizes!',
   SHORT_DESCRIPTION:
-    'Sinta-se a vontade para leva sua barraca e colchão e poder recarregar as baterias quando necessário.'
+    'Supernova Lynbrook Hackathon is a place where students with almost no experience in technology can come to learn and create technological solutions to real world problems. You’ll walk away with new technical, design and business skills, a project to brag about, and maybe even a prize!'
 };
 
 const LOW_CODE_SECTION = {
-  TITLE: 'No-code e low-code',
+  TITLE: 'Schedule',
   SRC: lowCode,
   DESCRIPTION: (
     <>
-      Queremos te incentivar ao máximo a participar, se expressar e solucionar{' '}
-      <a
-        className="lime-link"
-        href="https://hackathon-inovacao-social.notion.site/85b8d765f1de4293946b0a0a54f73300?v=332836713aad4d1fa131034ba89fa342"
-        target="_blank"
-        rel="noreferrer"
-      >
-        problemas
-      </a>{' '}
-      com a tecnologia. Por isso permitiremos projetos desenvolvidos usando
-      ferramentas no-code ou low-code. Ou seja, não é preciso ser programador
-      para implementar algo realmente incrível!
+{' '}
     </>
   )
-};
-
-const NOT_PROGRAMMER_SECTION = {
-  TITLE: 'Não é programador?',
-  SHORT_DESCRIPTION: 'Entusiastas são bem vindos!',
-  LONG_DESCRIPTION: (
-    <>
-      <p>
-        Os times serão formados por desenvolvedors, empreendedores, estudantes,
-        designers, e também podem ter membros de outras áreas quaisquer. A
-        formação do time é livre e todos são bem vindos!
-      </p>
-      <p>
-        Além disso, criamos a inscrição de &quot;entusiasta&quot; , que permite
-        você participar do evento sem necessariamente competir. Te dá a opção de
-        vivenciar o evento, sentir a energia e criar conexões sem precisar
-        entregar algo em 24 horas.
-      </p>
-      <p>Curtiu? Então se inscreva agora.</p>
-    </>
-  ),
-  ACTION: {
-    LABEL: 'Me inscrever agora',
-    LINK: '#subscription'
-  }
 };
 
 /** Instructions
@@ -283,7 +141,7 @@ const sponsors = [
   [
     {
       src: pjf,
-      name: 'Prefeitura de Juiz de Fora',
+      name: 'Bayco',
       link: 'https://www.pjf.mg.gov.br/'
     },
     {src: gdgjf, name: 'GDGJF', link: 'https://gdgjf.github.io/'},
@@ -292,7 +150,7 @@ const sponsors = [
   [
     {
       src: critt,
-      name: 'CRITT',
+      name: 'Hack Club',
       link: 'https://www2.ufjf.br/critt/'
     },
     {
@@ -304,115 +162,90 @@ const sponsors = [
 ];
 
 const MENTORS_SECTION = {
-  TITLE: 'Mentores',
+  TITLE: 'Team',
   DESCRIPTION:
-    'Você não estará sozinho! Contará com o suporte e apoio de mentores com longa experiência nas áreas de saúde, educação, design e tecnologia',
+    '',
   MENTOR_ACTION: {
-    PRE: 'Se você acredita que pode auxiliar os times a alcançarem o sucesso, se ofereça para ser também um de nossos mentores',
-    TEXT: 'Quero ser um mentor',
+    PRE: ' ',
+    TEXT: ' ',
     LINK: 'https://forms.gle/'
   },
   SUPPORTERS_DESCRIPTION:
-    'Apenas com o apoio destas pessoas incríveis é possível fazer um evento tão especial!',
+    '',
   VOLUNTEER_ACTION: {
-    TEXT: 'Quero ser um voluntário',
+    TEXT: ' ',
     LINK: 'https://forms.gle/8yGjTd88aSv4dp5C6'
   },
   MENTORS: [
     {
-      NAME: 'Anderson Mattozinhos',
-      SRC: '/Assets/People/anderson.jpeg',
-      DESCRIPTION: 'Sócio Gerente',
-      COMPANY: 'Ultrimagem Juiz de Fora',
-      LINKEDIN: 'https://www.linkedin.com/in/mattozinhos/',
+      NAME: 'Sanchitha Dinesh',
+      SRC: '/Assets/People/sanch.png',
+      DESCRIPTION: 'Founder and Lead',
+      COMPANY: '',
+      LINKEDIN: 'https://www.linkedin.com/in/sanchitha-dinesh/',
       GITHUB: '',
       INSTAGRAM: ''
     },
     {
-      NAME: 'Gustavo Oliveira',
-      SRC: '/Assets/People/gustavo.jpeg',
-      DESCRIPTION: 'Co-Founder',
-      COMPANY: 'Smart Retail',
-      LINKEDIN: 'https://www.linkedin.com/in/gugaoliveira/',
+      NAME: 'Mihika Rajadnya',
+      SRC: '/Assets/People/mihi.png',
+      DESCRIPTION: 'Marketing Lead',
+      COMPANY: '',
+      LINKEDIN: 'https://www.linkedin.com/in/mihika-r-bb9129260/',
       GITHUB: '',
       INSTAGRAM: ''
     },
     {
-      NAME: 'Leandro Campos',
-      SRC: '/Assets/People/leandro_campos.jpeg',
-      DESCRIPTION: 'CEO',
-      COMPANY: 'Nvoip',
-      LINKEDIN: 'https://www.linkedin.com/in/leandro-campos/',
+      NAME: 'Saanvi Gireesh',
+      SRC: '/Assets/People/saan.png',
+      DESCRIPTION: 'Operations Lead',
+      COMPANY: '',
+      LINKEDIN: 'https://www.linkedin.com/in/saanvi-g-aba415263/',
       GITHUB: '',
       INSTAGRAM: ''
     },
     {
-      NAME: 'Daniela Fabri',
-      SRC: '/Assets/People/daniela.jpeg',
-      DESCRIPTION: 'Analista',
-      COMPANY: 'Sebrae-MG',
-      LINKEDIN:
-        'https://www.linkedin.com/in/daniela-fabri-ferreira-mba-a7603989/',
+      NAME: 'Srushti Chaudhari',
+      SRC: '/Assets/People/avatar.png',
+      DESCRIPTION: 'Outreach',
+      COMPANY: '',
+      LINKEDIN: 'https://www.linkedin.com/in/srushti-c-288359259/',
       GITHUB: '',
       INSTAGRAM: ''
     },
     {
-      NAME: 'Humberto Sales',
-      SRC: '/Assets/People/humberto.jpeg',
-      DESCRIPTION: 'Head de Inovação',
-      COMPANY: 'Quokka',
-      LINKEDIN: 'https://www.linkedin.com/in/humbertosalesdealmeida/',
+      NAME: 'Deeksha',
+      SRC: '/Assets/People/avatar.png',
+      DESCRIPTION: 'Sponsorship',
+      COMPANY: '',
+      LINKEDIN: '',
       GITHUB: '',
       INSTAGRAM: ''
     },
     {
-      NAME: 'Chay Azevedo',
-      SRC: '/Assets/People/chay.jpeg',
-      DESCRIPTION: 'Agente Local de Inovação',
-      COMPANY: 'Sebrae',
-      LINKEDIN: 'https://www.linkedin.com/in/chayazevedo/',
-      GITHUB: '',
-      INSTAGRAM: ''
-    },
-    {
-      NAME: 'Kyro Caram',
-      SRC: '/Assets/People/kyro.jpeg',
-      DESCRIPTION: 'Fundador',
-      COMPANY: 'Collision',
-      LINKEDIN: 'https://www.linkedin.com/in/kyrocaram/',
-      GITHUB: '',
-      INSTAGRAM: ''
-    },
-    {
-      NAME: 'Lucas Mattos',
-      SRC: '/Assets/People/lucas.jpeg',
-      DESCRIPTION: 'Senior Product Manager',
-      COMPANY: 'Loft',
-      LINKEDIN: 'https://www.linkedin.com/in/luccmattos/',
-      GITHUB: '',
-      INSTAGRAM: ''
-    },
-    {
-      NAME: 'Tiago Gouvêa',
-      SRC: '/Assets/People/tiago.jpeg',
-      DESCRIPTION: 'CEO',
-      COMPANY: 'App Masters',
-      LINKEDIN: 'https://www.linkedin.com/in/tiagogouvea/',
-      GITHUB: '',
-      INSTAGRAM: ''
-    },
-    {
-      NAME: 'Arthur Avelar',
-      SRC: '/Assets/People/arthur.jpeg',
-      DESCRIPTION: 'Expansão e Novos Negócios',
-      COMPANY: 'Rhizom Technology',
-      LINKEDIN: 'https://www.linkedin.com/in/arthur-avelar/',
+      NAME: 'Aishani Chikkareddy',
+      SRC: '/Assets/People/avatar.png',
+      DESCRIPTION: 'Sponsorship',
+      COMPANY: '',
+      LINKEDIN: '',
       GITHUB: '',
       INSTAGRAM: ''
     }
-  ],
+  ]
+}
 
-  OTHER_MENTORS: {
+  const PRIZES_SECTION = {
+    TITLE: 'Prizes',
+    LONG_DESCRIPTION:
+      '',
+    SHORT_DESCRIPTION:
+      '',
+    IMGS: [
+     
+    ]
+  };
+
+  /*OTHER_MENTORS: {
     TITLE: 'Mentores Desenvolvedores',
     DESCRIPTION:
       'Quando se trata de código, conte com alguns dos melhores devs da cidade',
@@ -507,123 +340,15 @@ const MENTORS_SECTION = {
       INSTAGRAM: ''
     }
   ]
-};
-
-const FORM_SECTION = {
-  TITLE: 'Seja avisado quando abrirem as inscrições',
-  IMG: hackathonBanner
-};
-
-const SUBSCRIPTION_SECTION = {
-  TITLE: 'As inscrições estão abertas!',
-  DESCRIPTION:
-    'Os ingressos serão liberados em dois ou três lotes para participação. O número de vagas é limitado em quatro categorias:',
-  VALUE:
-    'O valor da inscrição no primeiro lote é de R$90,00 inteira e R$45,00 para estudantes. Neste valor estão inclusas as alimentações (biscoitos, frutas, pizza, sanduiches, café e agua).',
-  DRAW: 'Não perca essa oportunidade de conhecer gente nova, ficar imerso em cultura inovadora, se divertir, ajudar a cidade e fazer história!',
-  CATEGORIES: [
-    'Desenvolvedores',
-    'Designers',
-    'Empreendedores',
-    'Estudantes',
-    'Entusiastas'
-  ],
-  SUBSCRIBE_LINK:
-    'https://www.sympla.com.br/hackaton-de-inovacao-social-de-juiz-de-fora__1766078',
-  TERMS_LINK:
-    'https://docs.google.com/document/d/1KJT25ANYLSM8n4U1TAkmvh_qok8Ps_SYEfklffgKk_0/edit?usp=sharing'
-};
-
-const SUBSCRIPTION_CLOSED_SECTION = {
-  TITLE: 'Inscrições encerradas',
-  DESCRIPTION:
-    'O evento aconteceu e foi incrível! Outros poderão vir pela frente, que tal ser avisado?',
-  FORM_TITLE: 'Avise-me dos próximos eventos',
-  FORM_DESCRIPTION:
-    'Informe seus dados abaixo para saber dos próximos eventos com atencedência',
-  FORM_SUCCESS:
-    'Recebemos suas informações. Te manteremos informados dos próximos eventos como esse.'
-};
-
-const PRIZES_SECTION = {
-  TITLE: 'Premiação',
-  LONG_DESCRIPTION:
-    'Sendo um hackathon colaborativo, o maior objetivo é ajudar a cidade e a comunidade de forma geral! ',
-  SHORT_DESCRIPTION:
-    'Mas, nem por isso deixaríamos de ter prêmios. Neste evento haverão dezenas de prêmios e quase todos poderão ser premiados.',
-  IMGS: [
-    {
-      SRC: firstPrize,
-      ALT: '1º prêmio'
-    },
-    {
-      SRC: secondPrize,
-      ALT: '2º prêmio'
-    },
-    {
-      SRC: thirdPrize,
-      ALT: '3º prêmio'
-    },
-    {
-      SRC: fourthPrize,
-      ALT: '4º prêmio'
-    },
-    {
-      SRC: fifthPrize,
-      ALT: '5º prêmio'
-    },
-    {
-      SRC: sixthPrize,
-      ALT: '6º prêmio'
-    }
-  ]
-};
-
-const FOOTER = {
-  PRE_FOOTER: {
-    content: (
-      <p className="m-0">
-        Em caso de duvidas sobre o evento, entre em{' '}
-        <a
-          className="pre-footer-link"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://api.whatsapp.com/send?phone=5532988735683&text=Gostaria%20de%20saber%20mais%20sobre%20o%20Hackathon"
-        >
-          <u>contato</u>
-        </a>{' '}
-        conosco
-      </p>
-    )
-  },
-  realization: {
-    name: 'Moinho',
-    link: 'https://www.nossomoinho.com/'
-  },
-  organization: {
-    name: 'Tiago Gouvêa',
-    link: 'https://www.linkedin.com/in/tiagogouvea/'
-  },
-  github: {
-    name: 'GitHub',
-    link: 'https://github.com/TiagoGouvea/hackathon-moinho-website-template'
-  }
-};
+};*/
 
 export {
   TOP_SECTION,
-  MIDDLE_SECTION,
-  ENTERPRISE_SECTION,
-  EVENT_SECTION,
-  SOCIALS,
   CAMPING_PARTY_SECTION,
-  FORM_SECTION,
-  SUBSCRIPTION_SECTION,
-  SUBSCRIPTION_CLOSED_SECTION,
   LOW_CODE_SECTION,
-  NOT_PROGRAMMER_SECTION,
+  MIDDLE_SECTION,
+  SOCIALS,
   sponsors,
   MENTORS_SECTION,
-  PRIZES_SECTION,
-  FOOTER
+  PRIZES_SECTION
 };

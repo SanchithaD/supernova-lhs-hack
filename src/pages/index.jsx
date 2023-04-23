@@ -22,7 +22,7 @@ const Wrapper = styled.div`
     transition: top 1s;
     .nav-content {
       height: 55%;
-      background-color: #010101;
+      background-color: #7f8de1;
     }
   }
 `;
@@ -80,30 +80,30 @@ const NavBar = () => {
             </li>
             <li>
               <a href={`#about`}>
-                <span className="links">Conceito </span>{' '}
+                <span className="links">About </span>{' '}
               </a>
             </li>
             <li>
               <a href={`#mentors`}>
-                <span className="links">Mentores </span>{' '}
+                <span className="links">Team </span>{' '}
               </a>
             </li>
             <li>
               <a href={`#agenda`}>
-                <span className="links">Agenda </span>{' '}
+                <span className="links">FAQ </span>{' '}
               </a>
             </li>
             <li>
               <a href={`#prizes`}>
-                <span className="links">Premiação </span>{' '}
+                <span className="links">Prizes </span>{' '}
               </a>
             </li>
             {/* The event ended so let this section commented */}
-            <li>
+            {/*<li>
               <a href={`#subscription`}>
                 <span className="links">Inscrição </span>{' '}
               </a>
-            </li>
+            </li>*/}
           </ul>
           <img
             className="s-close"

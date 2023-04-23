@@ -105,46 +105,9 @@ const Mentors = () => {
           {AvatarGroup(MENTORS_SECTION.MENTORS, 'large')}
         </div>
       </div>
-      <div>
-        <h2 className="title_default">{MENTORS_SECTION.OTHER_MENTORS.TITLE}</h2>
-        <h3 className="text-secondary">
-          {MENTORS_SECTION.OTHER_MENTORS.DESCRIPTION}
-        </h3>
-      </div>
-      <div className="mentors">
-        <div className="mentors-list">
-          {AvatarGroup(MENTORS_SECTION.OTHER_MENTORS.MENTORS, 'large')}
-        </div>
-      </div>
     </div>
   );
 };
 
-const Supporters = () => {
-  return (
-    <div className="supportersContainer">
-      <div className="mb-5">
-        <h2 className="title_default">Apoiadores</h2>
-        <h3 className="text-secondary">
-          {MENTORS_SECTION.SUPPORTERS_DESCRIPTION}
-        </h3>
-      </div>
-      <div className="pt-4">
-        {AvatarGroup(MENTORS_SECTION.PARTNERS, 'small')}
-      </div>
-      {/*<div className="apply_supporters">*/}
-      {/*  <a*/}
-      {/*    href={MENTORS_SECTION.VOLUNTEER_ACTION.LINK}*/}
-      {/*    target="_blank"*/}
-      {/*    rel="noopener noreferrer"*/}
-      {/*  >*/}
-      {/*    <button className="btn btn-volunteer">*/}
-      {/*      {MENTORS_SECTION.VOLUNTEER_ACTION.TEXT}*/}
-      {/*    </button>*/}
-      {/*  </a>*/}
-      {/*</div>*/}
-    </div>
-  );
-};
 
-export {Mentors, Supporters};
+export {Mentors};

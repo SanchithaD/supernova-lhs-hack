@@ -13,19 +13,18 @@ import {
   ActivityHeading
 } from '../../components/Activities/index.jsx';
 import {Banner} from '../../components/Banner/index.jsx';
-import Footer from '../../components/Footer/index.jsx';
 import Collapse from '../../components/Collapse/index.jsx';
+import Footer from '../../components/Footer/index.jsx';
 import {MoinhoLogo, Myinfo} from '../../components/Landing/index.jsx';
 import Subscription from '../../components/Subscription/index.jsx';
 import {Sponsor, SponsorsHead} from '../../components/Sponsors/sponsors.jsx';
 import {EVENT_SECTION, sponsors} from '../../Module/General';
-import {Mentors, Supporters} from 'components/People/index.jsx';
+import {Mentors} from 'components/People/index.jsx';
 import LowCode from 'components/LowCode/index.jsx';
-import NotProgrammer from 'components/NotProgrammer/index.jsx';
 import {Prizes} from 'components/Prizes/index.jsx';
 import {Team} from 'components/Team/index.jsx';
 import {OnlineMeetings} from 'components/OnlineMeetings/index.jsx';
-import SubscriptionClosed from 'components/SubscriptionClosed/index.jsx';
+import Media from 'components/Socials/index.jsx';
 
 const SponsorGroup = (props, index) => {
   return (
@@ -39,20 +38,6 @@ const SponsorGroup = (props, index) => {
     </Row>
   );
 };
-
-// Activity group
-const ActivityGroup = (props, index) => {
-  return (
-    <Row key={index}>
-      {props.map((s, i) => (
-        <Col key={i} className="center-block" sm={12} lg={4} md={4}>
-          <FirstActivity icon={s.icon} title={s.title} />
-        </Col>
-      ))}
-    </Row>
-  );
-};
-// Activity group ending
 
 export default function HomePage() {
   return (
@@ -73,11 +58,41 @@ export default function HomePage() {
               <MoinhoLogo />
             </Col>
           </Row>
+
+          <Row className="mediaInfo">
+            <Col className="" sm={12} lg={12} md={12}>
+              <Media />
+            </Col>
+          </Row>
         </Container>
       </div>
+
+      {/* Camping here */}
+      <div className="grey_white_section" id="camping">
+        <Container fluid className="limiter">
+          <Row className="Row info2">
+            <Col className="info-div" sm={12} lg={12} md={12}>
+              <SectionCamping />
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      {/* Camping ending here */}
+
+      {/* Low code section */}
+      <div className="grey_section" id="low_code">
+        <Container fluid className="limiter">
+          <Row className="Row info">
+            <Col className="info-div" sm={12} lg={12} md={12}>
+              <LowCode />
+            </Col>
+          </Row>
+        </Container>
+      </div>
+
       <Container fluid className="limiter" id="about">
         <Row className="Row logoSection">
-          <Col className="info-div">
+          <Col className="info-div" sm={12} lg={12} md={12}>
             <Collapse />
           </Col>
         </Row>
@@ -105,18 +120,6 @@ export default function HomePage() {
 
       {/* Agenda ending */}
 
-      {/* Online meetings */}
-
-      <div className="black_section no-pb">
-        <Container id="online-meetings" fluid className="limiter">
-          <Row className="Row info2">
-            <OnlineMeetings />
-          </Row>
-        </Container>
-      </div>
-
-      {/* Online meetings ending */}
-
       {/* Prizes */}
       <div className="grey_white_section">
         <Container fluid className="limiter" id="prizes">
@@ -127,109 +130,6 @@ export default function HomePage() {
       </div>
       {/* Prizes ending */}
 
-      {/* Team */}
-      <div className="black_section no-pb">
-        <Container fluid className="limiter" id="team">
-          <Row className="Row info2">
-            <Team />
-          </Row>
-        </Container>
-      </div>
-      {/* Team ending */}
-
-      {/* Subscription */}
-      {/* The event ended so let this section commented */}
-      {/* <div className="black_section" id="subscription">
-        <Container fluid className="limiter">
-          <Row className="Row info">
-            <Col className="info-div">
-              <Subscription />
-            </Col>
-          </Row>
-        </Container>
-      </div> */}
-      {/* Subscription ending */}
-
-      {/* Subscription closed */}
-      <div className="black_section" id="subscription">
-        <Container fluid className="limiter">
-          <Row className="Row info">
-            <SubscriptionClosed />
-          </Row>
-        </Container>
-      </div>
-      {/* Subscription closed ending */}
-
-      {/* ********Event here ***** */}
-      <Container fluid className="limiter">
-        <Row className="activitiesection" id="event">
-          <ActivityHeading
-            title={EVENT_SECTION.TITLE}
-            description={EVENT_SECTION.DESCRIPTION}
-          />
-          {EVENT_SECTION.ACTIVITIES.map(ActivityGroup)}
-        </Row>
-      </Container>
-      {/* ********Event ending here ***** */}
-
-      {/* Enterprise section */}
-      <div className="black_section" id="activities">
-        <Container fluid className="limiter">
-          <Row className="Row info2">
-            <Col className="info-div" sm={12} lg={12} md={12}>
-              <SectionEnterprise />
-            </Col>
-          </Row>
-        </Container>
-      </div>
-      {/* Enterprise section ending */}
-
-      {/* Suporters */}
-      <div className="grey_section">
-        <Container fluid className="limiter" id="suporters">
-          <Row className="suportersSection Row">
-            <Col>
-              <Supporters />
-            </Col>
-          </Row>
-        </Container>
-      </div>
-
-      {/* Camping here */}
-      <div className="grey_white_section" id="camping">
-        <Container fluid className="limiter">
-          <Row className="Row info2">
-            <Col className="info-div" sm={12} lg={12} md={12}>
-              <SectionCamping />
-            </Col>
-          </Row>
-        </Container>
-      </div>
-      {/* Camping ending here */}
-
-      {/* Low code section */}
-      <div className="grey_section" id="low_code">
-        <Container fluid className="limiter">
-          <Row className="Row info">
-            <Col className="info-div">
-              <LowCode />
-            </Col>
-          </Row>
-        </Container>
-      </div>
-      {/* Low code section ending */}
-
-      {/* Not programmer section */}
-      <div className="grey_white_section">
-        <Container fluid className="limiter">
-          <Row className="Row info2">
-            <Col className="info-div" sm={12} lg={12} md={12}>
-              <NotProgrammer />
-            </Col>
-          </Row>
-        </Container>
-      </div>
-      {/* Not programmer section ending */}
 
       {/* ********Sponsors here ***** */}
       <Container fluid className="limiter">
@@ -239,7 +139,6 @@ export default function HomePage() {
         </Row>
         {/* ********Sponsors ending here ***** */}
       </Container>
-      <Footer />
     </div>
   );
 }
