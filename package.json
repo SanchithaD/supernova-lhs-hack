@@ -43,7 +43,7 @@
     "start": "next start",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
     "prepare": "husky install",
-    "predeploy": "npm run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
   "browserslist": {
@@ -70,7 +70,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SanchithaD/supernova-lhs-hack"
+    "url": "git+https://github.com/TiagoGouvea/hackathon-moinho-website-template"
   },
   "author": "",
   "license": "ISC",
