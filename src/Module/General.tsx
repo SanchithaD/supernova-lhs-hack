@@ -214,16 +214,7 @@ const MENTORS_SECTION = {
       INSTAGRAM: ''
     },
     {
-      NAME: 'Deeksha',
-      SRC: '/Assets/People/avatar.png',
-      DESCRIPTION: 'Sponsorship',
-      COMPANY: '',
-      LINKEDIN: '',
-      GITHUB: '',
-      INSTAGRAM: ''
-    },
-    {
-      NAME: 'Aishani Chikkareddy',
+      NAME: 'Deeksha Raj',
       SRC: '/Assets/People/avatar.png',
       DESCRIPTION: 'Sponsorship',
       COMPANY: '',
