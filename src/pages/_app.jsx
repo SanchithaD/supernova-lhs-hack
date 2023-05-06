@@ -46,7 +46,10 @@ export default function MyApp({Component, pageProps}) {
           name="google-site-verification"
           content="bbrVrhB_49iICKc-JLwkQG6qCWAQABQpCJ_ghVXOi2E"
         />
-       <meta property="og:image"  content="https://imgur.com/a/Hs740z8" />
+       <meta 
+          property="og:image" 
+          content="https://i.imgur.com/WXsyhbQ.png" 
+        />
         <meta
           property="og:title"
           content="Supernova Lynbrook Hackathon"
