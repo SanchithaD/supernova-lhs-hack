@@ -94,8 +94,8 @@ const NavBar = () => {
               </a>
             </li>
             <li>
-              <a href={`#prizes`}>
-                <span className="links">Prizes </span>{' '}
+              <a href={`#schedule`}>
+                <span className="links">Schedule </span>{' '}
               </a>
             </li>
             {/* The event ended so let this section commented */}

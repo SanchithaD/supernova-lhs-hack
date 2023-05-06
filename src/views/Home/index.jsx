@@ -17,7 +17,7 @@ import Collapse from '../../components/Collapse/index.jsx';
 import Footer from '../../components/Footer/index.jsx';
 import {MoinhoLogo, Myinfo} from '../../components/Landing/index.jsx';
 import Subscription from '../../components/Subscription/index.jsx';
-import {Sponsor, SponsorsHead} from '../../components/Sponsors/sponsors.jsx';
+import {Sponsor, SponsorsHead, SponsorUS} from '../../components/Sponsors/sponsors.jsx';
 import {EVENT_SECTION, sponsors} from '../../Module/General';
 import {Mentors} from 'components/People/index.jsx';
 import LowCode from 'components/LowCode/index.jsx';
@@ -68,7 +68,7 @@ export default function HomePage() {
       </div>
 
       {/* Camping here */}
-      <div className="grey_white_section" id="camping">
+      <div className="grey_white_section" id="about">
         <Container fluid className="limiter">
           <Row className="Row info2">
             <Col className="info-div" sm={12} lg={12} md={12}>
@@ -80,7 +80,7 @@ export default function HomePage() {
       {/* Camping ending here */}
 
       {/* Low code section */}
-      <div className="grey_section" id="low_code">
+      <div className="grey_section" id="schedule">
         <Container fluid className="limiter">
           <Row className="Row info">
             <Col className="info-div" sm={12} lg={12} md={12}>
@@ -89,14 +89,6 @@ export default function HomePage() {
           </Row>
         </Container>
       </div>
-
-      <Container fluid className="limiter" id="about">
-        <Row className="Row logoSection">
-          <Col className="info-div" sm={12} lg={12} md={12}>
-            <Collapse />
-          </Col>
-        </Row>
-      </Container>
 
       {/* Mentors */}
       <div className="grey_white_section">
@@ -120,6 +112,18 @@ export default function HomePage() {
 
       {/* Agenda ending */}
 
+      {/* ********Sponsors here ***** */}
+      <div className="grey_white_section">
+        <Container fluid className="limiter" id="sponsors">
+          <Row className="sponsorSection" id="partners">
+            <SponsorsHead />
+            <SponsorUS />
+            {sponsors.map(SponsorGroup)}
+          </Row>
+        </Container>
+      </div>
+      {/* ********Sponsors ending here ***** */}
+
       {/* Prizes */}
       <div className="grey_white_section">
         <Container fluid className="limiter" id="prizes">
@@ -129,16 +133,8 @@ export default function HomePage() {
         </Container>
       </div>
       {/* Prizes ending */}
+  
 
-
-      {/* ********Sponsors here ***** */}
-      <Container fluid className="limiter">
-        <Row className="sponsorSection" id="partners">
-          <SponsorsHead />
-          {sponsors.map(SponsorGroup)}
-        </Row>
-        {/* ********Sponsors ending here ***** */}
-      </Container>
     </div>
   );
 }

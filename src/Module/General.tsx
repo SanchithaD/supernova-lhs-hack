@@ -18,11 +18,12 @@ const camping1 = '/Assets/Camping/camping_1.jpg';
  * or you can provide a cloud link in src also
  */
 
-const gdgjf = '/Assets/sponsorsLogos/gdgjf.png';
-const pjf = '/Assets/sponsorsLogos/pjf.png';
-const zero40 = '/Assets/sponsorsLogos/zero40.png';
-const critt = '/Assets/sponsorsLogos/critt.jpeg';
-const sebrae = '/Assets/sponsorsLogos/sebrae.png';
+const bayco = '/Assets/sponsorsLogos/bayco.png';
+const first = '/Assets/sponsorsLogos/first.png';
+const foundation = '/Assets/sponsorsLogos/foundation.png';
+const hackclub = '/Assets/sponsorsLogos/hackclub.png';
+const xactly = '/Assets/sponsorsLogos/xactly.png';
+const wolfram = '/Assets/sponsorsLogos/wolfram.png';
 
 const lowCode = '/Assets/low_code.png';
 
@@ -33,39 +34,37 @@ const lowCode = '/Assets/low_code.png';
 
 const TOP_SECTION = {
   BANNER: hackathonBanner,
-  TITLE: '',
+  TITLE: 'About',
   Typed_effect: [
     '12 hours of creativity',
     'A Website, App or Game',
     'Attend Workshops',
     'Win Prizes'
-    /*'24 horas de tecnologia',
-    '24 horas de inovação'*/
   ],
   LONG_DESCRIPTION: (
     <>
-       Santa clara county&apos;s all girls hackathon! 12 hours where students create technological solutions to problems in their communities{' '}
+       Santa clara county&apos;s all girls hackathon! 12 hours where students create technological solutions to problems in their communities at
       <a
         className="lime-link"
-        href="https://hackathon-inovacao-social.notion.site/85b8d765f1de4293946b0a0a54f73300?v=332836713aad4d1fa131034ba89fa342"
+        href="https://www.google.com/maps/place/Lynbrook+High+School/@37.3006079,-122.0069019,17z/data=!4m12!1m6!3m5!1s0x808fb5433bf5d9e3:0x7c976276883c3c10!2sLynbrook+High+School!8m2!3d37.3006037!4d-122.0047132!3m4!1s0x808fb5433bf5d9e3:0x7c976276883c3c10!8m2!3d37.3006037!4d-122.0047132"
         target="_blank"
         rel="noreferrer"
       >
-        May 20th and May 21st, 2023
+      &nbsp;Lynbrook High School Library, San Jose, CA
       </a>{' '}
-      Calabasas library, San Jose, CA
+      on May 26th and May 27th, 2023
     </>
   ),
-  SHORT_DESCRIPTION: 'Register',
+  SHORT_DESCRIPTION: '',
   ACTION_BTN: 'https://docs.google.com/forms/d/e/1FAIpQLSf1DEbubNqh09iQRWj_kjQV6Eu-UReVOi6SZOOFJeGbebHlZQ/viewform?pli=1',
   LOGO: hackathonLogo
 };
 
 const SOCIALS = {
-  instagram: 'https://www.instagram.com/superpositionlhs/?hl=en',
+  instagram: 'https://www.instagram.com/supernovalhs',
   //discord: 'https://discord.com/invite/8XJSzmtWPp',
-   linkedin: 'https://www.linkedin.com/company/supernova/',
-  //twitter: 'https://twitter.com/HacksLimbo',
+   linkedin: 'https://www.linkedin.com/company/supernova-lynbrook/',
+   donate: 'https://bank.hackclub.com/donations/start/superposition-lynbrook-18d5f06b-d0a1-4316-80ec-619e2083779b',
   //devpost: 'https://limbo-hacks-12968.devpost.com/',
   email: 'mailto:supernova.lhs@gmail.com',
   mail: 'supernova.lhs@gmail.com'
@@ -85,7 +84,7 @@ const MIDDLE_SECTION = {
   AGENDA: [
     {
       TITLE: 'How can I help out with Supernova Lynbrook Hackathon?',
-      DESCRIPTION: 'Supernova Lynbrook is always looking for judges, sponsors, and partners! Please reach out to us at ch.lynbrookhs@superposition.tech or through our hackathon slack at TBD'
+      DESCRIPTION: 'We are always looking for judges, sponsors, and partners! Please reach out to us at supernova.lhs@gmail.com or through our hackathon slack at TBD'
     },
     {
       TITLE: 'Who can attend?',
@@ -93,7 +92,7 @@ const MIDDLE_SECTION = {
     },
     {
       TITLE: 'When and Where is Supernova Lynbrook Hackathon happening?',
-      DESCRIPTION: 'Supernova Lynbrook happens on the weekend May 19th - May 20th, 2023 at Calabazas libray'
+      DESCRIPTION: 'Supernova Lynbrook happens on the weekend May 26th - May 27th, 2023 at Lynbrook High School Cafeteria'
     },
     {
       TITLE: 'Where can I contact organizers?',
@@ -116,9 +115,9 @@ const MIDDLE_SECTION = {
 const CAMPING_PARTY_SECTION = {
   img: camping1,
   LONG_DESCRIPTION:
-    'Supernova Lynbrook Hackathon is a 12-hour hackathon where students use technology to create solutions to problems that their local communities face. A hackathon is a place where students come together and use technology to solve problems and win prizes!',
+    'Supernova Lynbrook Hackathon is a 12-hour hackathon where students use technology to create solutions to problems that their local communities face. A hackathon is a place where students come together and use technology to solve problems and win prizes!\n\n',
   SHORT_DESCRIPTION:
-    'Supernova Lynbrook Hackathon is a place where students with almost no experience in technology can come to learn and create technological solutions to real world problems. You’ll walk away with new technical, design and business skills, a project to brag about, and maybe even a prize!'
+    'This hackathon is open to any high school or middle school student who identifies as female or non-binary. We welcome students of all levels, which is why we hold workshops on technical, business, and design topics to help you create the best possible project. We also have a lot of fun activities planned throughout the event along with great speakers and panel dicussions!'
 };
 
 const LOW_CODE_SECTION = {
@@ -139,23 +138,24 @@ const LOW_CODE_SECTION = {
 
 const sponsors = [
   [
+    {src: hackclub, name: 'HackClub', link: 'https://zero40.com.br/'},
     {
-      src: pjf,
-      name: 'Bayco',
+      src: xactly,
+      name: 'Xactly',
       link: 'https://www.pjf.mg.gov.br/'
     },
-    {src: gdgjf, name: 'GDGJF', link: 'https://gdgjf.github.io/'},
-    {src: zero40, name: 'Zero40', link: 'https://zero40.com.br/'}
+    {src: bayco, name: 'Bayco', link: 'https://gdgjf.github.io/'},
   ],
   [
+    {src: first, name: 'First', link: 'https://zero40.com.br/'},
     {
-      src: critt,
-      name: 'Hack Club',
+      src: foundation,
+      name: 'Fremont Foundation',
       link: 'https://www2.ufjf.br/critt/'
     },
     {
-      src: sebrae,
-      name: 'Sebrae',
+      src: wolfram,
+      name: 'Wolfram',
       link: 'https://sebrae.com.br/sites/PortalSebrae/ufs/mg?codUf=14'
     }
   ]
@@ -183,7 +183,7 @@ const MENTORS_SECTION = {
       DESCRIPTION: 'Founder and Lead',
       COMPANY: '',
       LINKEDIN: 'https://www.linkedin.com/in/sanchitha-dinesh/',
-      GITHUB: '',
+      GITHUB: 'https://github.com/SanchithaD',
       INSTAGRAM: ''
     },
     {
@@ -228,7 +228,7 @@ const MENTORS_SECTION = {
   const PRIZES_SECTION = {
     TITLE: 'Prizes',
     LONG_DESCRIPTION:
-      '',
+      ' Win Prizes And Swag!',
     SHORT_DESCRIPTION:
       '',
     IMGS: [

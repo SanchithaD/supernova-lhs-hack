@@ -26,6 +26,7 @@ import '../styles/mentors.scss';
 import '../styles/low_code.scss';
 import '../styles/not_programmer.scss';
 import '../styles/online-meetings.scss';
+import '../styles/sponsors.scss';
 
 export default function MyApp({Component, pageProps}) {
   return (
