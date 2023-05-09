@@ -42,6 +42,14 @@ button {
   align-items: center;
 }
 
+
+.supernovaLogoContainer {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .topLogo {
   width: 70%;
 }
@@ -58,8 +66,17 @@ button {
 }
 
 .AboutMe h2 {
-  font-size: 8rem;
-  font-family: 'Noto Sans', sans-serif;
+  font-size: 7rem;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  color: #fdb7b7
+}
+
+.AboutMe h1 {
+  font-size: 6rem;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  color: #fdb7b7
 }
 
 .sponsor_btn {
@@ -69,18 +86,24 @@ button {
 }
 
 p {
+  font-size: 3rem;
+  line-height: 1.6;
+  font-weight: bold;
+}
+
+p1 {
   font-size: 2rem;
   line-height: 1.6;
-  font-weight: 300;
 }
 
 .Myinfo {
-  text-align: left;
+  text-align: center;
   margin-left: 10vh;
+  margin-right: 10vh;
 }
 
 .Myinfo p {
-  width: 70%;
+  width: 100%;
 }
 
 /* Over lay effect */
@@ -118,12 +141,13 @@ button:hover .overlay {
 
 /* main targer */
 
-@media (max-width: 570px) {
+@media (max-width: 270px) {
   .Myinfo p {
     width: 100%;
   }
   .AboutMe h2 {
-    font-size: 4rem;
+    font-size: 30rem;
+    font-weight: 700;
   }
   .register {
     margin-left: 0;
@@ -134,7 +158,7 @@ button:hover .overlay {
     margin-left: 0;
   }
   .Myinfo p {
-    font-size: 1.9rem;
+    font-size: 4.9rem;
   }
   .AboutMe {
     text-align: center;

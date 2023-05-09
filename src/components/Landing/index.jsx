@@ -16,7 +16,9 @@ const Btn = props => {
 const About = () => {
   return (
     <div className="AboutMe">
-      <MytypedComponent />
+    <img className="superNovaLogo" src={TOP_SECTION.LOGO} alt="Supernova Lynbrook" />
+    <h1>{TOP_SECTION.TITLE1}</h1>
+    <MytypedComponent />
     </div>
   );
 };
@@ -24,7 +26,15 @@ const About = () => {
 const MoinhoLogo = () => {
   return (
     <div className="topLogoContainer">
-      <img className="topLogo" src={TOP_SECTION.LOGO} alt="Moinho" />
+      <img className="topLogo" src={TOP_SECTION.LOGO} alt="Supernova Lynbrook" />
+    </div>
+  );
+};
+
+const SuperNovaLogo = () => {
+  return (
+    <div className="superNovaLogoContainer">
+      <img className="superNovaLogo" src={TOP_SECTION.LOGO} alt="Supernova Lynbrook" />
     </div>
   );
 };
@@ -34,11 +44,11 @@ const Myinfo = () => {
     <div className="Myinfo">
       <About />
       <p> {TOP_SECTION.LONG_DESCRIPTION}</p>
-      <p> {TOP_SECTION.SHORT_DESCRIPTION}</p>
+      <p1> {TOP_SECTION.SHORT_DESCRIPTION}</p1>
       <div className="buttom-group">
         <a href={TOP_SECTION.ACTION_BTN}>
           {' '}
-          <Btn class="sponsor_btn" type="Register"/>
+          <Btn class="sponsor_btn" type="Register" overlay="Go" />
         </a>
       </div>
     </div>

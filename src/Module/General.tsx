@@ -1,4 +1,3 @@
-const hackathonBanner = '/Assets/hackathonBanner.png';
 const hackathonLogo = '/Assets/hackthon_branco.png';
 
 // Camping
@@ -33,17 +32,25 @@ const lowCode = '/Assets/low_code.png';
  */
 
 const TOP_SECTION = {
-  BANNER: hackathonBanner,
-  TITLE: 'About',
+  BANNER: 'hackathonBanner',
+  TITLE1: 'LYNBROOK HACKATHON',
+  TITLE2: 'HACKATHON',
   Typed_effect: [
     '12 hours of creativity',
-    'A Website, App or Game',
-    'Attend Workshops',
-    'Win Prizes'
+    'Win Awesome Prizes',
+    'Code a Website, App or Game',
+    'Attend Workshops from professionals',
+    'Listen to Speaker series'
   ],
+
   LONG_DESCRIPTION: (
     <>
-       Santa clara county&apos;s all girls hackathon! 12 hours where students create technological solutions to problems in their communities at
+       Santa clara county&apos;s all girls hackathon! 12 hours where students create technological solutions to problems in their communities!
+    </>
+  ),
+  SHORT_DESCRIPTION: (
+    <>
+       May 26th and 27th at
       <a
         className="lime-link"
         href="https://www.google.com/maps/place/Lynbrook+High+School/@37.3006079,-122.0069019,17z/data=!4m12!1m6!3m5!1s0x808fb5433bf5d9e3:0x7c976276883c3c10!2sLynbrook+High+School!8m2!3d37.3006037!4d-122.0047132!3m4!1s0x808fb5433bf5d9e3:0x7c976276883c3c10!8m2!3d37.3006037!4d-122.0047132"
@@ -52,10 +59,8 @@ const TOP_SECTION = {
       >
       &nbsp;Lynbrook High School Library, San Jose, CA
       </a>{' '}
-      on May 26th and May 27th, 2023
     </>
   ),
-  SHORT_DESCRIPTION: '',
   ACTION_BTN: 'https://docs.google.com/forms/d/e/1FAIpQLSf1DEbubNqh09iQRWj_kjQV6Eu-UReVOi6SZOOFJeGbebHlZQ/viewform?pli=1',
   LOGO: hackathonLogo
 };
@@ -71,8 +76,8 @@ const SOCIALS = {
 };
 
 const MIDDLE_SECTION = {
-  BANNER: hackathonBanner,
-  TITLE: 'Tentative Schedule',
+  BANNER: '',
+  TITLE: '',
   LONG_DESCRIPTION: (
   ' '
   ),

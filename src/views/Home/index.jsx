@@ -25,6 +25,7 @@ import {Prizes} from 'components/Prizes/index.jsx';
 import {Team} from 'components/Team/index.jsx';
 import {OnlineMeetings} from 'components/OnlineMeetings/index.jsx';
 import Media from 'components/Socials/index.jsx';
+import {TOP_SECTION} from '../../Module/General';
 
 const SponsorGroup = (props, index) => {
   return (
@@ -43,24 +44,20 @@ export default function HomePage() {
   return (
     <div
       className="Whole_div"
-      style={{backgroundImage: 'url(/Assets/Home/pattern4.png)'}}
     >
       {/* Initial banner */}
-      <Banner />
+     
       {/* Home section */}
-      <div className="black_section" id="home">
+      <div className="black_section" id="home" style={{backgroundImage: 'url(/Assets/hackathonBG.png)'}}>
         <Container fluid className="limiter">
           <Row className="Row info reverseRow">
-            <Col className="info-div" sm={12} lg={7} md={7}>
+            <Col className="info-div" sm={24} lg={14} md={14}>
               <Myinfo />
-            </Col>
-            <Col className="topLogoCol" sm={12} lg={5} md={5}>
-              <MoinhoLogo />
             </Col>
           </Row>
 
           <Row className="mediaInfo">
-            <Col className="" sm={12} lg={12} md={12}>
+            <Col className="" sm={24} lg={24} md={24}>
               <Media />
             </Col>
           </Row>
@@ -102,6 +99,7 @@ export default function HomePage() {
 
       {/* Agenda */}
 
+    <div className="grey_section" id="agenda" style={{backgroundImage: 'url(/Assets/Home/pattern4.png)'}}>
       <Container fluid className="limiter" id="agenda">
         <Row className="agendaSection">
           <Col className="info-div">
@@ -109,11 +107,12 @@ export default function HomePage() {
           </Col>
         </Row>
       </Container>
+    </div>
 
       {/* Agenda ending */}
 
       {/* ********Sponsors here ***** */}
-      <div className="grey_white_section">
+      <div className="grey_section">
         <Container fluid className="limiter" id="sponsors">
           <Row className="sponsorSection" id="partners">
             <SponsorsHead />
