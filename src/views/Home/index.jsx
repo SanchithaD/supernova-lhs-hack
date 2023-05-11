@@ -51,13 +51,13 @@ export default function HomePage() {
       <div className="black_section" id="home" style={{backgroundImage: 'url(/Assets/hackathonBG.png)'}}>
         <Container fluid className="limiter">
           <Row className="Row info reverseRow">
-            <Col className="info-div" sm={24} lg={14} md={14}>
+            <Col className="info-div" sm={10} lg={12} md={12}>
               <Myinfo />
             </Col>
           </Row>
 
           <Row className="mediaInfo">
-            <Col className="" sm={24} lg={24} md={24}>
+            <Col className="" sm={12} lg={12} md={12}>
               <Media />
             </Col>
           </Row>

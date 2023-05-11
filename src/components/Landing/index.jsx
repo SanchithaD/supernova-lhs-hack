@@ -1,5 +1,6 @@
 import {TOP_SECTION} from '../../Module/General';
 import MytypedComponent from '../Typed/index.js';
+import Col from 'react-bootstrap/Col';
 
 const Btn = props => {
   return (
@@ -16,7 +17,9 @@ const Btn = props => {
 const About = () => {
   return (
     <div className="AboutMe">
-    <img className="superNovaLogo" src={TOP_SECTION.LOGO} alt="Supernova Lynbrook" />
+    <Col className="imgContainer1">
+      <img className="superNovaLogo" src={TOP_SECTION.LOGO} alt="Supernova Lynbrook" />
+    </Col>
     <h1>{TOP_SECTION.TITLE1}</h1>
     <MytypedComponent />
     </div>

@@ -139,16 +139,29 @@ button:hover .overlay {
   left: 0;
 }
 
+.imgContainer1 {
+  width: 100%;
+  height: auto;
+}
+
+
 /* main targer */
 
-@media (max-width: 270px) {
+@media (max-width: 570px) {
   .Myinfo p {
     width: 100%;
   }
   .AboutMe h2 {
-    font-size: 30rem;
-    font-weight: 700;
+    font-size: 4rem;
   }
+  
+  .AboutMe h1 {
+    font-size: 5rem;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #fdb7b7
+   }
+
   .register {
     margin-left: 0;
     margin-top: 3vh;
@@ -158,11 +171,14 @@ button:hover .overlay {
     margin-left: 0;
   }
   .Myinfo p {
-    font-size: 4.9rem;
+    font-size: 1.9rem;
   }
   .AboutMe {
     text-align: center;
   }
+  .superNovaLogo {
+    width: 40%;
+}
 }
 
 @media (max-width: 330px) {

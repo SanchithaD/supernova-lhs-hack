@@ -48,7 +48,7 @@ export default function MyApp({Component, pageProps}) {
         />
        <meta 
           property="og:image" 
-          content="https://i.imgur.com/WXsyhbQ.png" 
+          content="https://i.imgur.com/bWPaekc.png" 
         />
         <meta
           property="og:title"

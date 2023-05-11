@@ -36,29 +36,32 @@ const TOP_SECTION = {
   TITLE1: 'LYNBROOK HACKATHON',
   TITLE2: 'HACKATHON',
   Typed_effect: [
-    '12 hours of creativity',
-    'Win Awesome Prizes',
-    'Code a Website, App or Game',
-    'Attend Workshops from professionals',
-    'Listen to Speaker series'
+    '12 hours of creativity!',
+    'Hack anything!',
+    'Win Awesome Prizes!',
+    'Beginner friendly!',
+    'Cool Workshops!',
+    'Speaker series!'
   ],
 
   LONG_DESCRIPTION: (
     <>
        Santa clara county&apos;s all girls hackathon! 12 hours where students create technological solutions to problems in their communities!
+       Beginner friendly! No prior coding experience needed!
     </>
   ),
   SHORT_DESCRIPTION: (
     <>
-       May 26th and 27th at
+       May 27th, Saturday at
       <a
         className="lime-link"
         href="https://www.google.com/maps/place/Lynbrook+High+School/@37.3006079,-122.0069019,17z/data=!4m12!1m6!3m5!1s0x808fb5433bf5d9e3:0x7c976276883c3c10!2sLynbrook+High+School!8m2!3d37.3006037!4d-122.0047132!3m4!1s0x808fb5433bf5d9e3:0x7c976276883c3c10!8m2!3d37.3006037!4d-122.0047132"
         target="_blank"
         rel="noreferrer"
       >
-      &nbsp;Lynbrook High School Library, San Jose, CA
+      &nbsp;Lynbrook High School Library, San Jose, CA.
       </a>{' '}
+       We will have a virtual kickoff event on May 26th
     </>
   ),
   ACTION_BTN: 'https://docs.google.com/forms/d/e/1FAIpQLSf1DEbubNqh09iQRWj_kjQV6Eu-UReVOi6SZOOFJeGbebHlZQ/viewform?pli=1',
@@ -97,7 +100,7 @@ const MIDDLE_SECTION = {
     },
     {
       TITLE: 'When and Where is Supernova Lynbrook Hackathon happening?',
-      DESCRIPTION: 'Supernova Lynbrook happens on the weekend May 26th - May 27th, 2023 at Lynbrook High School Cafeteria'
+      DESCRIPTION: 'Supernova Lynbrook happens on the weekend May 27th, 2023 at Lynbrook High School Cafeteria. We will have a virtual kickoff on the May 26th'
     },
     {
       TITLE: 'Where can I contact organizers?',
@@ -186,7 +189,7 @@ const MENTORS_SECTION = {
       NAME: 'Sanchitha Dinesh',
       SRC: '/Assets/People/sanch.png',
       DESCRIPTION: 'Founder and Lead',
-      COMPANY: '',
+      COMPANY: 'Junior @ Lynbrook High School',
       LINKEDIN: 'https://www.linkedin.com/in/sanchitha-dinesh/',
       GITHUB: 'https://github.com/SanchithaD',
       INSTAGRAM: ''
@@ -194,8 +197,8 @@ const MENTORS_SECTION = {
     {
       NAME: 'Mihika Rajadnya',
       SRC: '/Assets/People/mihi.png',
-      DESCRIPTION: 'Marketing Lead',
-      COMPANY: '',
+      DESCRIPTION: 'Operations Lead',
+      COMPANY: 'Junior @ Lynbrook High School',
       LINKEDIN: 'https://www.linkedin.com/in/mihika-r-bb9129260/',
       GITHUB: '',
       INSTAGRAM: ''
@@ -203,9 +206,18 @@ const MENTORS_SECTION = {
     {
       NAME: 'Saanvi Gireesh',
       SRC: '/Assets/People/saan.png',
-      DESCRIPTION: 'Operations Lead',
-      COMPANY: '',
+      DESCRIPTION: 'Marketing Lead',
+      COMPANY: 'Junior @ Lynbrook High School',
       LINKEDIN: 'https://www.linkedin.com/in/saanvi-g-aba415263/',
+      GITHUB: '',
+      INSTAGRAM: ''
+    },
+    {
+      NAME: 'Deeksha Raj',
+      SRC: '/Assets/People/avatar.png',
+      DESCRIPTION: 'Workshop Coordinator',
+      COMPANY: 'Junior @ Lynbrook High School',
+      LINKEDIN: '',
       GITHUB: '',
       INSTAGRAM: ''
     },
@@ -213,27 +225,18 @@ const MENTORS_SECTION = {
       NAME: 'Srushti Chaudhari',
       SRC: '/Assets/People/avatar.png',
       DESCRIPTION: 'Outreach',
-      COMPANY: '',
+      COMPANY: 'Junior @ Lynbrook High School',
       LINKEDIN: 'https://www.linkedin.com/in/srushti-c-288359259/',
       GITHUB: '',
       INSTAGRAM: ''
     },
-    {
-      NAME: 'Deeksha Raj',
-      SRC: '/Assets/People/avatar.png',
-      DESCRIPTION: 'Sponsorship',
-      COMPANY: '',
-      LINKEDIN: '',
-      GITHUB: '',
-      INSTAGRAM: ''
-    }
   ]
 }
 
   const PRIZES_SECTION = {
     TITLE: 'Prizes',
     LONG_DESCRIPTION:
-      ' Win Prizes And Swag!',
+      ' Win Awesome Prizes And Swag for various categories!',
     SHORT_DESCRIPTION:
       '',
     IMGS: [

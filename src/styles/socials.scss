@@ -1,6 +1,7 @@
 .media {
   color: white;
 }
+
 .single {
   display: inline-block;
   margin-left: 25px;
@@ -29,4 +30,9 @@
     margin-left: 8px;
     margin-right: 8px;
   }
+  
+  .media p {
+    font-size: 1rem;
+  }
+
 }

@@ -50,7 +50,7 @@ const Avatar = ({mentor}) => {
         src={mentor.SRC}
         className="rounded-circle shadow-4"
         alt={mentor.NAME}
-        width="200px"
+        width="120px"
       />
       <SocialWrapper item={mentor} />
       <div className="avatar-info">
@@ -59,7 +59,12 @@ const Avatar = ({mentor}) => {
         </div>
         <div className="description">
           <p className="text-secondary">
-            {mentor.DESCRIPTION}, {mentor.COMPANY}
+            {mentor.DESCRIPTION}
+          </p>
+        </div>
+        <div className="description2">
+          <p>
+           {mentor.COMPANY}
           </p>
         </div>
       </div>
@@ -73,7 +78,7 @@ const AvatarGroup = (mentors, size) => {
       {size === 'large' && (
         <Row className="mentors-group">
           {mentors.map((mentor, i) => (
-            <Col key={i} className="mentors-item" sm={12} md={4} lg={2}>
+            <Col key={i} className="mentors-item" sm={4} md={4} lg={4}>
               <Avatar mentor={mentor} />
             </Col>
           ))}
@@ -83,7 +88,7 @@ const AvatarGroup = (mentors, size) => {
       {size === 'small' && (
         <Row className="mentors-smallest-group">
           {mentors.map((mentor, i) => (
-            <Col key={i} className="mentors-small-item" sm={6} md={6} lg={2}>
+            <Col key={i} className="mentors-small-item" sm={2} md={6} lg={2}>
               <SmallestAvatar mentor={mentor} />
             </Col>
           ))}

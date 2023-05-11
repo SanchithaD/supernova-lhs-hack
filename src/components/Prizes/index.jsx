@@ -25,14 +25,14 @@ const Prizes = () => {
   return (
     <div className="prizesContainer">
       <div className="prizes-top">
-        <h2 className="title_default">{PRIZES_SECTION.TITLE}</h2>
+        <h1 className="title_default">{PRIZES_SECTION.TITLE}</h1>
       </div>
       <div className="prizes">
         <div className="prizes-list">{ImageGroup(PRIZES_SECTION.IMGS)}</div>
       </div>
       <div className="prize-descriptions">
-        <h3 className="description">{PRIZES_SECTION.LONG_DESCRIPTION}</h3>
-        <h3 className="description">{PRIZES_SECTION.SHORT_DESCRIPTION}</h3>
+        <h1 className="description">{PRIZES_SECTION.LONG_DESCRIPTION}</h1>
+        <h1 className="description">{PRIZES_SECTION.SHORT_DESCRIPTION}</h1>
       </div>
     </div>
   );
