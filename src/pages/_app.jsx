@@ -41,7 +41,7 @@ export default function MyApp({Component, pageProps}) {
           name="description"
           content=""
         />
-        <meta itemProp="name" content="SupernovaLynbrook" />
+        <meta itemProp="name" content="Supernova" />
         <meta
           name="google-site-verification"
           content="bbrVrhB_49iICKc-JLwkQG6qCWAQABQpCJ_ghVXOi2E"

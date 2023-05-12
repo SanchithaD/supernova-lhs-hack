@@ -90,7 +90,7 @@ const MIDDLE_SECTION = {
   AGENDA_TITLE: 'FAQ',
   AGENDA: [
     {
-      TITLE: 'How can I help out with Supernova Lynbrook Hackathon?',
+      TITLE: 'How can I help out with Supernova Hackathon?',
       DESCRIPTION: 'We are always looking for judges, sponsors, and partners! Please reach out to us at supernova.lhs@gmail.com or through our hackathon slack at TBD'
     },
     {
@@ -98,12 +98,12 @@ const MIDDLE_SECTION = {
       DESCRIPTION: 'We welcome any high school or middle school student who identifies as female or non-binary'
     },
     {
-      TITLE: 'When and Where is Supernova Lynbrook Hackathon happening?',
-      DESCRIPTION: 'Supernova Lynbrook happens on the weekend May 27th, 2023 at Lynbrook High School Cafeteria. We will have a virtual kickoff on the May 26th'
+      TITLE: 'When and Where is Supernova  Hackathon happening?',
+      DESCRIPTION: 'Supernova  happens on the weekend May 27th, 2023 at Fremont High School, Sunnyvale. We will have a virtual kickoff on the May 26th'
     },
     {
       TITLE: 'Where can I contact organizers?',
-      DESCRIPTION: 'You can contact anyone in our team through our hackathon slack at or through our team email supernova.lhs@gmail.com'
+      DESCRIPTION: 'You can contact anyone in our team through our hackathon discor (TBD) at or through our team email supernova.lhs@gmail.com'
     },
     {
       TITLE: 'What do I bring?',
@@ -111,7 +111,7 @@ const MIDDLE_SECTION = {
     },
     {
       TITLE: 'What if I dont have a team or idea?',
-      DESCRIPTION: 'Supernova Lynbrook Hackathon will have workshops and team building time/activities where youll have the chance to come up with an idea or make a team.'
+      DESCRIPTION: 'Supernova Hackathon will have workshops and team building time/activities where youll have the chance to come up with an idea or make a team.'
     }
   ],
   AGENDA_FOOTER: '',
@@ -122,7 +122,7 @@ const MIDDLE_SECTION = {
 const CAMPING_PARTY_SECTION = {
   img: camping1,
   LONG_DESCRIPTION:
-    'Supernova Lynbrook Hackathon is a 12-hour hackathon where students use technology to create solutions to problems that their local communities face. A hackathon is a place where students come together and use technology to solve problems and win prizes!\n\n',
+    'Supernova Hackathon is a 12-hour hackathon where students use technology to create solutions to problems that their local communities face. A hackathon is a place where students come together and use technology to solve problems and win prizes!\n\n',
   SHORT_DESCRIPTION:
     'This hackathon is open to any high school or middle school student who identifies as female or non-binary. We welcome students of all levels, which is why we hold workshops on technical, business, and design topics to help you create the best possible project. We also have a lot of fun activities planned throughout the event along with great speakers and panel dicussions!'
 };
