@@ -33,7 +33,7 @@ const lowCode = '/Assets/low_code.png';
 
 const TOP_SECTION = {
   BANNER: 'hackathonBanner',
-  TITLE1: 'LYNBROOK HACKATHON',
+  TITLE1: 'HACKATHON',
   TITLE2: 'HACKATHON',
   Typed_effect: [
     '12 hours of creativity!',
@@ -55,13 +55,12 @@ const TOP_SECTION = {
        May 27th, Saturday at
       <a
         className="lime-link"
-        href="https://www.google.com/maps/place/Lynbrook+High+School/@37.3006079,-122.0069019,17z/data=!4m12!1m6!3m5!1s0x808fb5433bf5d9e3:0x7c976276883c3c10!2sLynbrook+High+School!8m2!3d37.3006037!4d-122.0047132!3m4!1s0x808fb5433bf5d9e3:0x7c976276883c3c10!8m2!3d37.3006037!4d-122.0047132"
-        target="_blank"
+        href="https://www.google.com/maps/place/Fremont+High+School/@37.3535123,-122.0370504,17z/data=!4m14!1m7!3m6!1s0x808fb5d5e8ad2b4b:0xfdc0496a27320d2!2sFremont+High+School!8m2!3d37.3535123!4d-122.0348617!16zL20vMGNyXzc5!3m5!1s0x808fb5d5e8ad2b4b:0xfdc0496a27320d2!8m2!3d37.3535123!4d-122.0348617!16zL20vMGNyXzc5"
         rel="noreferrer"
       >
-      &nbsp;Lynbrook High School Library, San Jose, CA.
+      &nbsp;Fremont High School, Sunnyvale, CA.
       </a>{' '}
-       We will have a virtual kickoff event on May 26th
+       We will have a virtual kickoff event on May 26th!
     </>
   ),
   ACTION_BTN: 'https://docs.google.com/forms/d/e/1FAIpQLSf1DEbubNqh09iQRWj_kjQV6Eu-UReVOi6SZOOFJeGbebHlZQ/viewform?pli=1',
@@ -73,7 +72,7 @@ const SOCIALS = {
   //discord: 'https://discord.com/invite/8XJSzmtWPp',
    linkedin: 'https://www.linkedin.com/company/supernova-lynbrook/',
    donate: 'https://bank.hackclub.com/donations/start/superposition-lynbrook-18d5f06b-d0a1-4316-80ec-619e2083779b',
-  //devpost: 'https://limbo-hacks-12968.devpost.com/',
+  devpost: 'https://supernova-hackathon.devpost.com',
   email: 'mailto:supernova.lhs@gmail.com',
   mail: 'supernova.lhs@gmail.com'
 };
