@@ -52,7 +52,7 @@ export default function MyApp({Component, pageProps}) {
         />
         <meta
           property="og:title"
-          content="Supernova Lynbrook Hackathon"
+          content="Supernova Hackathon"
         />
         <meta property="og:type" content="website" />
         <meta
