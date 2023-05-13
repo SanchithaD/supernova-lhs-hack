@@ -14,6 +14,7 @@ export default function Media() {
         <a rel="noreferrer" target="_blank" href={SOCIALS.email}>
         <i class="fa fa-3x fa-envelope-o"></i>
         </a>
+        </div>
 
       <div className="single">
         <a rel="noreferrer" target="_blank" href={SOCIALS.discord}>
@@ -31,9 +32,6 @@ export default function Media() {
         <a rel="noreferrer" target="_blank" href={SOCIALS.devpost}>
           <i className="fab fa-3x fa-dev"></i>
         </a>
-      </div>
-
-
       </div>
     </div>
   );
