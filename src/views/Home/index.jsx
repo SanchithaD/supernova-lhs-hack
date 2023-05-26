@@ -97,19 +97,6 @@ export default function HomePage() {
       </div>
       {/* Mentors ending */}
 
-      {/* Agenda */}
-
-    <div className="grey_section" id="agenda" style={{backgroundImage: 'url(/Assets/Home/pattern4.png)'}}>
-      <Container fluid className="limiter" id="agenda">
-        <Row className="agendaSection">
-          <Col className="info-div">
-            <SectionAgendaAbout />
-          </Col>
-        </Row>
-      </Container>
-    </div>
-
-      {/* Agenda ending */}
 
       {/* ********Sponsors here ***** */}
       <div className="grey_section">
@@ -132,6 +119,20 @@ export default function HomePage() {
         </Container>
       </div>
       {/* Prizes ending */}
+
+          {/* Agenda */}
+
+    <div className="grey_section" id="agenda" style={{backgroundImage: 'url(/Assets/Home/pattern4.png)'}}>
+      <Container fluid className="limiter" id="agenda">
+        <Row className="agendaSection">
+          <Col className="info-div">
+            <SectionAgendaAbout />
+          </Col>
+        </Row>
+      </Container>
+    </div>
+
+      {/* Agenda ending */}
   
 
     </div>

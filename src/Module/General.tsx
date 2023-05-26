@@ -23,6 +23,7 @@ const foundation = '/Assets/sponsorsLogos/foundation.png';
 const hackclub = '/Assets/sponsorsLogos/hackclub.png';
 const xactly = '/Assets/sponsorsLogos/xactly.png';
 const wolfram = '/Assets/sponsorsLogos/wolfram.png';
+const aops = '/Assets/sponsorsLogos/AoPS_Logo.png';
 
 const lowCode = '/Assets/low_code.png';
 
@@ -159,6 +160,11 @@ const sponsors = [
       src: foundation,
       name: 'Fremont Foundation',
       link: 'https://www2.ufjf.br/critt/'
+    },
+    {
+      src: aops,
+      name: 'AOPS',
+      link: 'https://aopsacademy.org'
     },
     {
       src: wolfram,
