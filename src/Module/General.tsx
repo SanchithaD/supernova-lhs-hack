@@ -211,7 +211,7 @@ const MENTORS_SECTION = {
     {
       NAME: 'Saanvi Gireesh',
       SRC: '/Assets/People/saan.png',
-      DESCRIPTION: 'Marketing Lead',
+      DESCRIPTION: 'Workshop Coordinator',
       COMPANY: 'Junior @ Lynbrook High School',
       LINKEDIN: 'https://www.linkedin.com/in/saanvi-g-aba415263/',
       GITHUB: '',
@@ -220,7 +220,7 @@ const MENTORS_SECTION = {
     {
       NAME: 'Deeksha Raj',
       SRC: '/Assets/People/deeksha.png',
-      DESCRIPTION: 'Workshop Coordinator',
+      DESCRIPTION: 'Marketing Lead',
       COMPANY: 'Junior @ Lynbrook High School',
       LINKEDIN: '',
       GITHUB: '',
