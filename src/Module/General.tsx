@@ -219,7 +219,7 @@ const MENTORS_SECTION = {
     },
     {
       NAME: 'Deeksha Raj',
-      SRC: '/Assets/People/avatar.png',
+      SRC: '/Assets/People/deeksha.png',
       DESCRIPTION: 'Workshop Coordinator',
       COMPANY: 'Junior @ Lynbrook High School',
       LINKEDIN: '',
@@ -228,7 +228,7 @@ const MENTORS_SECTION = {
     },
     {
       NAME: 'Srushti Chaudhari',
-      SRC: '/Assets/People/avatar.png',
+      SRC: '/Assets/People/srusthi.png',
       DESCRIPTION: 'Outreach',
       COMPANY: 'Junior @ Lynbrook High School',
       LINKEDIN: 'https://www.linkedin.com/in/srushti-c-288359259/',
