@@ -24,6 +24,7 @@ const hackclub = '/Assets/sponsorsLogos/hackclub.png';
 const xactly = '/Assets/sponsorsLogos/xactly.png';
 const wolfram = '/Assets/sponsorsLogos/wolfram.png';
 const aops = '/Assets/sponsorsLogos/AoPS_Logo.png';
+const echo3d = '/Assets/sponsorsLogos/echo3D_logo.png';
 
 const lowCode = '/Assets/low_code.png';
 
@@ -169,6 +170,11 @@ const sponsors = [
     {
       src: wolfram,
       name: 'Wolfram',
+      link: 'https://sebrae.com.br/sites/PortalSebrae/ufs/mg?codUf=14'
+    },
+        {
+      src: echo3d,
+      name: 'echo3d',
       link: 'https://sebrae.com.br/sites/PortalSebrae/ufs/mg?codUf=14'
     }
   ]
