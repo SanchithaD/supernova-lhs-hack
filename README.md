@@ -1,11 +1,3 @@
-# Hackathon do Moinho
-
-## Template do webiste
-
-Este repositório é um fork de [Hackathon website Folio template](https://github.com/Abusayid693/Hackathon-website-template), e é a página do evento "[Hackathon de Inovação Social](https://hackathon.nossomoinho.com/)"
-
-O evento aconteceu nos dias 21 e 22 de janeiro de 2023, em Juiz de Fora, MG, no [Moinho](https://nossomoinho.com/).
-
 # Readme Original
 
 ## [Prerequisites]()
